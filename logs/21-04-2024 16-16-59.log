@@ -1,0 +1,9 @@
+2024-04-21 16:16:59,994 Requests DEBUG Send patch type request
+2024-04-21 16:17:01,502 AssertUtil ERROR Code error. Code is 409, expected code is 404.
+2024-04-21 16:17:04,908 Requests DEBUG Send patch type request
+2024-04-21 16:17:05,030 AssertUtil ERROR Code error. Code is 409, expected code is 200.
+2024-04-21 16:17:05,169 Requests DEBUG Send patch type request
+2024-04-21 16:17:05,313 AssertUtil ERROR Code error. Code is 409, expected code is 422.
+2024-04-21 16:17:05,349 Requests DEBUG Send patch type request
+2024-04-21 16:17:06,805 AssertUtil ERROR Code error. Code is 404, expected code is 422.
+2024-04-21 16:17:06,838 Requests DEBUG Send patch type request

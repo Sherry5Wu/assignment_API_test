@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f0c89a1-dc92-45db-a1c8-e317f647d401" name="Changes" comment="create files">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bug_report.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_quote.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_renew.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_signup.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_user.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_validate.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_weather.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup_requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_quote.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_renew.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_signup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_validate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/AssertUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/LogUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/YamlUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/signup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/requests_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/RequestsUtils.py" afterDir="false" />
-    </list>
+    <list default="true" id="8f0c89a1-dc92-45db-a1c8-e317f647d401" name="Changes" comment="Add more files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,11 +210,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713557244611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add more files">
+      <option name="closed" value="true" />
+      <created>1713735535603</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713735535603</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create files" />
-    <option name="LAST_COMMIT_MESSAGE" value="create files" />
+    <MESSAGE value="Add more files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more files" />
   </component>
 </project>

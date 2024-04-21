@@ -1,0 +1,8 @@
+2024-04-21 23:07:19,414 Requests DEBUG Send get type request
+2024-04-21 23:07:22,769 AssertUtil ERROR Body error. Body is True, expected body is True.
+2024-04-21 23:07:23,863 Requests DEBUG Send get type request
+2024-04-21 23:07:24,007 AssertUtil ERROR Body error. Body is False, expected body is False.
+2024-04-21 23:07:24,026 Requests DEBUG Send get type request
+2024-04-21 23:07:24,093 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-21 23:07:24,112 Requests DEBUG Send get type request
+2024-04-21 23:07:24,171 AssertUtil ERROR Code error. Code is 200, expected code is 422.

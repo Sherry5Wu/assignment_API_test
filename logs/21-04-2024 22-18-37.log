@@ -1,0 +1,9 @@
+2024-04-21 22:18:37,159 Requests DEBUG Send get type request
+2024-04-21 22:18:42,416 Requests DEBUG Send get type request
+2024-04-21 22:18:42,719 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-21 22:18:43,037 Requests DEBUG Send get type request
+2024-04-21 22:18:44,042 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-21 22:18:44,064 Requests DEBUG Send get type request
+2024-04-21 22:18:44,558 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-21 22:18:44,587 Requests DEBUG Send get type request
+2024-04-21 22:18:45,198 AssertUtil ERROR Code error. Code is 200, expected code is 422.
