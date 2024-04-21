@@ -1,0 +1,29 @@
+2024-04-22 01:10:04,903 Requests DEBUG Send get type request
+2024-04-22 01:10:05,878 Requests DEBUG Send get type request
+2024-04-22 01:10:06,062 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-22 01:10:06,980 Requests DEBUG Send get type request
+2024-04-22 01:10:07,506 AssertUtil ERROR Code error. Code is 401, expected code is 422.
+2024-04-22 01:10:07,529 Requests DEBUG Send get type request
+2024-04-22 01:10:07,909 AssertUtil ERROR Code error. Code is 401, expected code is 422.
+2024-04-22 01:10:07,929 Requests DEBUG Send get type request
+2024-04-22 01:10:11,133 AssertUtil ERROR Code error. Code is 401, expected code is 422.
+2024-04-22 01:10:11,219 Requests DEBUG Send patch type request
+2024-04-22 01:10:12,097 Requests DEBUG Send patch type request
+2024-04-22 01:10:12,352 AssertUtil ERROR Code error. Code is 409, expected code is 422.
+2024-04-22 01:10:12,462 Requests DEBUG Send patch type request
+2024-04-22 01:10:12,520 AssertUtil ERROR Code error. Code is 404, expected code is 422.
+2024-04-22 01:10:12,541 Requests DEBUG Send patch type request
+2024-04-22 01:10:12,826 Requests DEBUG Send patch type request
+2024-04-22 01:10:12,873 Requests DEBUG Send post type request
+2024-04-22 01:10:13,217 Requests DEBUG Send post type request
+2024-04-22 01:10:13,466 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-22 01:10:13,489 Requests DEBUG Send post type request
+2024-04-22 01:10:13,739 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-22 01:10:13,760 Requests DEBUG Send post type request
+2024-04-22 01:10:14,078 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-22 01:10:14,089 Requests DEBUG Send post type request
+2024-04-22 01:10:14,514 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-22 01:10:14,536 Requests DEBUG Send post type request
+2024-04-22 01:10:14,950 AssertUtil ERROR Code error. Code is 200, expected code is 422.
+2024-04-22 01:10:14,969 Requests DEBUG Send post type request
+2024-04-22 01:10:15,312 AssertUtil ERROR Code error. Code is 200, expected code is 422.
