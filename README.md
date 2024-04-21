@@ -7,7 +7,11 @@
 - Execute requirements.txt file to install all the dependent python libraries using following command and make it pass without any error: pip3 install -r requirements.txt
 
 ## <h2>Running the tests:<h2>
-- Run below command to execute all the tests. This will generate log file(with name: <YY-MM-DD_HH-MM-SS>.log) in logs folder.
-pytest -vs Test\test_requests.py
-- Run below command to execute and generate pytest html report: 
-pytest -vs --capture sys Test\test_requests.py --html=report.html
+- Navigate to assignment_API_test folder
+- Run below command to execute all the tests.(make sure you install "pytest-html" already") This will generate log file(with name: <YY-MM-DD_HH-MM-SS>.log) in logs folder:
+pytest testcases/
+- The report will be generated in report folder.
+
+## <h2>Testcases and bug report:<h2>
+- The Testcases for APIs file contains all the designed testcases.
+- The bug_report file contains all the found bugs.
