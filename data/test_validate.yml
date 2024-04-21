@@ -1,0 +1,38 @@
+# validate API testcases
+# the information in one testcase should have: case_name, case_scenario, url, data, expect_code, expect_body
+---
+"case_name": "signup-validate-001"
+"case_scenario": "Validates a valid token."
+"url": "/signupsrv/validate"
+"data":
+  token: "428380a20b2d382c86fa3965017ba33e"
+"expect_code": 200
+"expect_body": "True"
+
+---
+"case_name": "signup-validate-002"
+"case_scenario": "Validates an invalid token."
+"url": "/signupsrv/validate"
+"data":
+  token: "13c0e57"
+"expect_code": 200
+"expect_body": "False"
+
+---
+"case_name": "signup-validate-003"
+"case_scenario": "Validates an empty token."
+"url": "/signupsrv/validate"
+"data":
+  token: ""
+"expect_code": 200
+"expect_body": "False"
+
+---
+"case_name": "signup-validate-004"
+"case_scenario": "validates a not string type token."
+"url": "/signupsrv/validate"
+"data":
+  token:
+    value: f83d5178d2c919a127ef7ccdedd7ccfb
+"expect_code": 200
+"expect_body": "False"

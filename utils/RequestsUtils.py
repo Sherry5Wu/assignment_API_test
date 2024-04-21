@@ -1,19 +1,25 @@
 import requests
+from utils.LogUtils import my_log
 
 # Refactor requests
 
 # Create class request
 class Request:
     # Define public method
+    def __init__(self):
+        self.log = my_log("Requests")
     def requests_api(self, url, data=None, json=None, headers=None, cookies=None, method="get"):
         if method == "get":
             # send get request
+            self.log.debug("Send get type request")
             response = requests.get(url, data=data, json=json, headers=headers, cookies=cookies)
         elif method == "post":
             # send post request
+            self.log.debug("Send post type request")
             response = requests.post(url, data=data, json=json, headers=headers, cookies=cookies)
         elif method == "patch":
             # send patch request
+            self.log.debug("Send patch type request")
             response = requests.patch(url, data=data, json=json, headers=headers, cookies=cookies)
 
         # Get the content of the response

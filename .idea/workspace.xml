@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f0c89a1-dc92-45db-a1c8-e317f647d401" name="Changes" comment="create files" />
+    <list default="true" id="8f0c89a1-dc92-45db-a1c8-e317f647d401" name="Changes" comment="create files">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bug_report.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test_quote.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test_renew.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test_signup.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test_user.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test_validate.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test_weather.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup_requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_quote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_renew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_signup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_validate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_weather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/AssertUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/LogUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/YamlUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/signup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/requests_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/RequestsUtils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +47,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sherry5Wu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sherry5Wu/assignment_API_test.git&quot;,
+    &quot;accountId&quot;: &quot;1f5bf176-3ebd-4a72-b4f7-ef53e8117f99&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -31,13 +70,48 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for pytest_assert.test_assert_true.executor": "Run",
+    "Python tests.Python tests for pytest_class.TestClass.executor": "Run",
+    "Python tests.Python tests for pytest_class.TestClass.test_a.executor": "Run",
+    "Python tests.Python tests for pytest_demo.test_a.executor": "Run",
+    "Python tests.Python tests for pytest_demo.test_b.executor": "Run",
+    "Python tests.Python tests for pytest_func.TestFunc.executor": "Run",
+    "Python tests.Python tests for pytest_func.TestFunc.test_a.executor": "Run",
+    "Python tests.Python tests for pytest_func.TestFunc.test_b.executor": "Run",
+    "Python tests.Python tests for pytest_one_para.TestDemo.executor": "Run",
+    "Python tests.Python tests for pytest_two_para.TestDemo.executor": "Run",
+    "Python tests.Python tests for renew.test_renew.executor": "Run",
+    "Python tests.Python tests for signup.test_signup.executor": "Run",
+    "Python tests.Python tests for signup_datadrive.test_yaml.executor": "Run",
+    "Python tests.Python tests for user.test_user.executor": "Run",
+    "Python tests.Python tests for validate.test_validate.executor": "Run",
+    "Python tests.Python tests for weather.test_weather.executor": "Run",
+    "Python tests.Python tests in pytest_assert.py.executor": "Run",
+    "Python tests.Python tests in pytest_demo.py.executor": "Run",
+    "Python tests.Python tests in pytest_func.py.executor": "Run",
+    "Python tests.Python tests in quote.py.executor": "Run",
+    "Python tests.Python tests in signup.py.executor": "Run",
+    "Python tests.Python tests in signup_datadrive.py.executor": "Run",
+    "Python tests.Python tests in test_requests.py.executor": "Run",
+    "Python tests.Python tests in testcases.executor": "Run",
+    "Python tests.Python tests in weather.py.executor": "Run",
+    "Python.Config.executor": "Run",
+    "Python.LogUtils.executor": "Run",
+    "Python.log_demo.executor": "Run",
+    "Python.log_file_demo.executor": "Run",
     "Python.signup (1).executor": "Run",
+    "Python.signup.executor": "Run",
+    "Python.signup_copy.executor": "Run",
+    "Python.signup_datadrive.executor": "Run",
     "Python.test (1).executor": "Run",
     "Python.test.executor": "Run",
     "Python.test1.executor": "Run",
+    "Python.yaml_demo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "F:/ApiTestExamples/REST-API-automation-using-python-pytest",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -45,101 +119,89 @@
       <recent name="C:\Users\Administrator\Desktop\withsecure\assignment_API_test\testcases" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.signup (1)">
-    <configuration name="signup (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in testcases">
+    <configuration name="Python tests for testcases.test_user.test_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="assignment_API_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/signup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcases.test_user.test_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="signup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for testcases.test_validate.test_validate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="assignment_API_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\withsecure\assignment_API_test\testcases\signup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="signup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="assignment_API_test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\withsecure\assignment_API_test\testcases\signup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcases.test_validate.test_validate&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_quote.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="assignment_API_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_quote.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_requests.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="API-Testing-Python-Pytest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/ApiTestExamples/API-Testing-Python-Pytest/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;F:/ApiTestExamples/API-Testing-Python-Pytest/Test/test_requests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in testcases" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="assignment_API_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.signup (1)" />
-        <item itemvalue="Python.signup" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.signup" />
+        <item itemvalue="Python tests.Python tests in testcases" />
+        <item itemvalue="Python tests.Python tests in test_requests.py" />
+        <item itemvalue="Python tests.Python tests for testcases.test_validate.test_validate" />
+        <item itemvalue="Python tests.Python tests for testcases.test_user.test_user" />
+        <item itemvalue="Python tests.Python tests in test_quote.py" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713555867759</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create files">
+      <option name="closed" value="true" />
+      <created>1713557244611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713557244611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

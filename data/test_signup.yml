@@ -1,0 +1,95 @@
+# signup testcases
+# the information in one testcase should have: case_name, case_scenario, url, data, expect_code, expect_body
+---
+"case_name": "signup-signup-001"
+"case_scenario": "Happy case. Valid username and valid password."
+"url": "/signupsrv/signup"
+"data":
+  username: "Sherry"
+  password: "sherry#123"
+"expect_code": 200
+"expect_body": "token:"
+
+---
+"case_name": "signup-signup-002"
+"case_scenario": "Username and password are empty."
+"url": "/signupsrv/signup"
+"data":
+  username: ""
+  password: ""
+"expect_code": 422
+"expect_body": "value_error.missing"
+
+---
+"case_name": "signup-signup-003"
+"case_scenario": "Username is empty with valid password"
+"url": "/signupsrv/signup"
+"data":
+  username: ""
+  password: "sherry#123"
+"expect_code": 422
+"expect_body": "value_error.missing"
+
+---
+"case_name": "signup-signup-004"
+"case_scenario": "Valid username with empty password"
+"url": "/signupsrv/signup"
+"data":
+  username: "sherry"
+  password: ""
+"expect_code": 422
+"expect_body": "value_error.missing"
+
+---
+"case_name": "signup-signup-005"
+"case_scenario": "Registered username and valid password"
+"url": "/signupsrv/signup"
+"data":
+  username: "Sherry"
+  password: "sherry#123"
+"expect_code": 422
+"expect_body": "value_error.missing"
+
+---
+"case_name": "signup-signup-006"
+"case_scenario": "Username type is not string type"
+"url": "/signupsrv/signup"
+"data":
+  username:
+    test: sherry
+  password: "sherry#123"
+"expect_code": 422
+"expect_body": "value_error.missing"
+
+---
+"case_name": "signup-signup-007"
+"case_scenario": "Password type is not string type"
+"url": "/signupsrv/signup"
+"data":
+  username: "Halli"
+  password:
+    test: 1234
+"expect_code": 422
+"expect_body": "value_error.missing"
+
+# can not execute the test case, because there is no username requirements
+#---
+#"case_name": "signup-signup-008"
+#"case_scenario": "Format Invalid username and valid password"
+#"url": "/signupsrv/signup"
+#"data":
+#  username: ""
+#  password: ""
+#"expect_code": 422
+#"expect_body": "value_error.missing"
+
+# can not execute the test case, because there is no password requirements
+#---
+#"case_name": "signup-signup-009"
+#"case_scenario": "Valid username and format invalid password"
+#"url": "/signupsrv/signup"
+#"data":
+#  username: ""
+#  password: ""
+#"expect_code": 422
+#"expect_body": "value_error.missing"

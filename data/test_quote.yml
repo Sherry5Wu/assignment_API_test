@@ -1,0 +1,47 @@
+# quote API testcases
+# the information in one testcase should have: case_name, case_scenario, url, data, expect_code, expect_body
+---
+"case_name": "quote-quote-001"
+"case_scenario": "Using a valid and existing token to fetch"
+"url": "/quotesrv/quote"
+"data":
+  token: "ffd7df113d0cd8fc1b0cfde9caa3da79"
+"expect_code": 200
+"expect_body": ""
+
+---
+"case_name": "quote-quote-002"
+"case_scenario": "Using an expired token to fetch"
+"url": "/quotesrv/quote"
+"data":
+  token: "8314736891bc028c02e009c590e1eb36"
+"expect_code": 422
+"expect_body": ""
+
+---
+"case_name": "quote-quote-003"
+"case_scenario": "Using an empty token to fetch"
+"url": "/quotesrv/quote"
+"data":
+  token: ""
+"expect_code": 422
+"expect_body": ""
+
+---
+"case_name": "quote-quote-004"
+"case_scenario": "Using an invalid token to fetch"
+"url": "/quotesrv/quote"
+"data":
+  token: "12345#"
+"expect_code": 422
+"expect_body": ""
+
+---
+"case_name": "quote-quote-005"
+"case_scenario": "Using a token that is type is not string to fetch"
+"url": "/quotesrv/quote"
+"data":
+  token:
+    value: "ffd7df113d0cd8fc1b0cfde9caa3da79"
+"expect_code": 422
+"expect_body": ""

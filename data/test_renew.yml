@@ -1,0 +1,47 @@
+# renew testcases
+# the information in one testcase should have: case_name, case_scenario, url, data, expect_code, expect_body
+---
+"case_name": "signup-renew-001"
+"case_scenario": "Happy case. Valid username and the token of the user is not expired"
+"url": "/signupsrv/renew"
+"data":
+  username: "huang"
+"expect_code": 200
+"expect_body": "token:"
+
+---
+"case_name": "signup-renew-002"
+"case_scenario": "Renew it with an empty username"
+"url": "/signupsrv/renew"
+"data":
+  username: ""
+"expect_code": 422
+"expect_body": ""
+
+---
+"case_name": "signup-renew-003"
+"case_scenario": "Renew it with an invalid username"
+"url": "/signupsrv/renew"
+"data":
+  username:
+    test: "Sherry"
+"expect_code": 422
+"expect_body": ""
+
+---
+"case_name": "signup-renew-004"
+"case_scenario": "Renew with a valid username and the token of the user was expired"
+"url": "/signupsrv/renew"
+"data":
+  username: "Sherry"
+"expect_code": 409
+"expect_body": ""
+
+---
+"case_name": "signup-renew-005"
+"case_scenario": "Renew it with unregistered username"
+"url": "/signupsrv/renew"
+"data":
+  username: "f83d5178d2c91"
+"expect_code": 404
+"expect_body": ""

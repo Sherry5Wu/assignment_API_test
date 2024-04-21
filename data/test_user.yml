@@ -1,0 +1,47 @@
+# user API testcases
+# the information in one testcase should have: case_name, case_scenario, url, data, expect_code, expect_body
+---
+"case_name": "signup-user-001"
+"case_scenario": "Using a valid and existing token to fetch"
+"url": "/signupsrv/user"
+"data":
+  token: "ffd7df113d0cd8fc1b0cfde9caa3da79"
+"expect_code": 200
+"expect_body": ""
+
+---
+"case_name": "signup-user-002"
+"case_scenario": "Using an expired token to fetch"
+"url": "/signupsrv/user"
+"data":
+  token: "f83d5178d2c919a127ef7ccdedd7ccfb"
+"expect_code": 422
+"expect_body": ""
+
+---
+"case_name": "signup-user-003"
+"case_scenario": "Using an empty token to fetch"
+"url": "/signupsrv/user"
+"data":
+  token: ""
+"expect_code": 422
+"expect_body": ""
+
+---
+"case_name": "signup-user-004"
+"case_scenario": "Using an invalid token to fetch"
+"url": "/signupsrv/user"
+"data":
+  token: "12345#"
+"expect_code": 422
+"expect_body": ""
+
+---
+"case_name": "signup-user-005"
+"case_scenario": "Using a token that is type is not string to fetch"
+"url": "/signupsrv/user"
+"data":
+  token:
+    value: "ffd7df113d0cd8fc1b0cfde9caa3da79"
+"expect_code": 422
+"expect_body": ""
